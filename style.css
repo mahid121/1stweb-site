@@ -144,6 +144,12 @@ body{
     font-size: 80px;
     animation: moveInLeft 5s ease-in;
 }
+@media (min-width: 20em) and (max-width: 60em) {
+    #carousel-item h1{
+        font-size: 49px;
+        margin-bottom: 20px;
+    } 
+  }
 #carousel-item p{
     z-index: 1;
     position: absolute;
@@ -152,6 +158,13 @@ body{
     font-size: 40px;
     animation: moveInRight 5s ease-in;
 }
+@media (min-width: 20em) and (max-width: 60em) {
+    #carousel-item p{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+  }
  #carousel-item button{
     z-index: 1;
     position: absolute;
@@ -165,19 +178,6 @@ body{
     width: 1420px;
     
 }
-@media (min-width: 20em) and (max-width: 60em) {
-    #carousel-item h1{
-        font-size: 49px;
-        margin-bottom: 20px;
-    }
-    #carousel-item p{
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    
-  }
-
-
 /*offer section begin*/
 
 #advantages{
