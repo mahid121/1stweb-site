@@ -146,6 +146,7 @@ body{
 }
 @media (min-width: 10em) and (max-width: 60em) {
     #carousel-item h1{
+        text-align:center;
         font-size: 49px;
         margin-bottom: 20px;
     } 
